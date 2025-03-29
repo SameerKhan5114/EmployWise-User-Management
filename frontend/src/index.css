@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Global Styles */
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+/* 🔹 Container Styling */
+.container {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* 🔹 Button Styles */
+.btn-primary {
+  @apply bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-blue-700 transition duration-300;
+}
+
+.btn-secondary {
+  @apply bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-gray-600 transition duration-300;
+}
+
+/* 🔹 Form Inputs */
+.input-field {
+  @apply w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+/* 🔹 Card Styles */
+.card {
+  @apply bg-white p-6 rounded-lg shadow-lg;
+}
